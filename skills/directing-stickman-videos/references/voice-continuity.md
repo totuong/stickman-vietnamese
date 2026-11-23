@@ -20,6 +20,22 @@ The following complete male block was accepted by the user after a three-clip Fl
 One off-screen adult male narrator throughout. General American accent, warm clean baritone, medium-low pitch, gentle chest resonance, no raspiness or breathiness. Calm conversational delivery, restrained pitch variation, steady speaking pace, and close, dry studio sound. Keep the same vocal timbre, register, accent, pace, and recording quality throughout. Emotional progression belongs to the visuals and music; do not change the narrator's voice or switch to character dialogue.
 ```
 
+### Vietnamese male training voice — Đăng Khoa Gemini (Đào tạo)
+
+When Vietnamese narration is chosen or the user selects the **Đăng Khoa Gemini (Đào tạo)** voice profile (Vietnamese male training/explainer persona via Gemini TTS), freeze and copy this complete approved block **verbatim** into every clip prompt:
+
+```text
+One off-screen adult Vietnamese male narrator throughout (Đăng Khoa Gemini training voice). Standard Vietnamese accent (clear Northern/Neutral tone), crisp and energetic delivery, authoritative yet engaging training and explainer intonation, medium-pitched articulate resonance, steady speaking pace, no raspiness or breathiness, close dry studio sound. Keep the same vocal timbre, register, accent, pace, and recording quality throughout. Emotional progression belongs to the visuals and music; do not change the narrator's voice or switch to character dialogue.
+```
+
+For Vietnamese prompts, pair this block with natural Vietnamese audio-only dialogue:
+```text
+Audio voiceover only, strictly no speech bubbles, no dialogue boxes.
+Audio-only dialogue: "[Câu thoại tiếng Việt hoàn chỉnh có đầy đủ dấu thanh điệu]"
+```
+
+In Vietnamese, spoken delivery for training and explainer content typically runs at approximately **25–35 Vietnamese words per 10-second clip** (~150–180 words per minute). Match visual beats to the spoken Vietnamese phrasing rather than forcing English syllable counts.
+
 For a different approved voice, compose its own complete block using the same identity/pitch/texture/delivery/recording fields, then freeze that block. Do not append contradictory attributes such as "bright high-pitched youthful voice" to a low baritone or "now shout dramatically" to restrained conversational narration.
 
 ## Separate voice, performance and music

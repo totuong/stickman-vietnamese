@@ -42,8 +42,8 @@ Write every prompt in this order:
 5. Composition strategy for the chosen ratio (`16:9` or `9:16`)
 6. First-frame state inherited from the previous clip
 7. `[0–3s]`, `[3–7s]`, and `[7–10s]` visual beats tied to spoken ideas
-8. Exact audio-only English dialogue in quotation marks (strictly no speech bubbles or dialogue boxes)
-9. Complete frozen English voice block from `voice-continuity.md`, verbatim in every clip: identity/age, accent, timbre, register, resonance, texture, delivery, pace and recording treatment; no "same narrator" shortcuts or clip-specific recasting
+8. Exact audio-only dialogue in quotation marks (English, or Vietnamese when chosen; strictly no speech bubbles or dialogue boxes)
+9. Complete frozen voice block from `voice-continuity.md`, verbatim in every clip (such as the tested male profile or the Vietnamese Đăng Khoa Gemini training profile): identity/age, accent, timbre, register, resonance, texture, delivery, pace and recording treatment; no "same narrator" shortcuts or clip-specific recasting
 10. BGM, synchronized SFX, and voice-first mixing (subsequent clips mandate seamless BGM continuity from clip 1)
 11. Final-frame transition state inherited by the next clip
 12. Negative constraints (including style-specific clutter/deformation bans)
@@ -73,7 +73,7 @@ Translate the approved storyboard row into three connected physical events:
 
 ## Dialogue and visual text
 
-Quote the approved English VO exactly once as audio-only dialogue:
+Quote the approved VO (English or Vietnamese) exactly once as audio-only dialogue:
 ```text
 Audio voiceover only, strictly no speech bubbles, no dialogue boxes.
 ```

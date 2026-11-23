@@ -10,17 +10,19 @@ Style 5 (Historical Cartoon / 历史卡通风) uses `historical-cartoon.md`. Inc
 
 ## Rewrite the source
 
-Create one natural English narration scaled to approximately 20–25 words per 10-second clip based on the target duration (e.g. ~60–75 words for 30s, ~120–150 words for 60s default, ~360–450 words for 3min, ~600–750 words for 5min).
+Create natural narration scaled to the target duration:
+- For English: approximately 20–25 words per 10-second clip (e.g. ~60–75 words for 30s, ~120–150 words for 60s default, ~360–450 words for 3min, ~600–750 words for 5min).
+- For Vietnamese (e.g., with **Đăng Khoa Gemini (Đào tạo)**): approximately 25–35 words per 10-second clip (e.g. ~75–100 words for 30s, ~150–200 words for 60s default, ~450–600 words for 3min, ~600–750 words for 5min), matching the energetic, articulate training pace.
 
 - Preserve the source's core claim, names, numbers, and factual meaning.
 - Strengthen a weak opening with an immediate hook.
 - Remove repetition and secondary branches from long sources.
 - Expand short sources with a relevant example, progression, reframe, or callback.
-- Prefer clear spoken English to literal translation.
+- Prefer clear spoken phrasing to literal translation.
 - Simplify wording before increasing speaking speed.
 - Do not invent research, statistics, quotations, product claims, or factual details.
 
-Use the user's language for planning explanations. Keep the voiceover in English and give a reference translation in the user's language.
+Use the user's language for planning explanations. When the project language is English, keep the voiceover in English and give a reference translation in the user's language. When the project language is Vietnamese (or when selecting Đăng Khoa Gemini), author the voiceover directly in natural, idiomatic Vietnamese with accurate diacritics.
 
 ## Header contract
 
@@ -29,7 +31,7 @@ Present these items in order:
 1. English title and reference-language title
 2. Core message and opening hook
 3. Chosen aspect ratio (`16:9` or `9:16`), target duration (in 10s multiples), and visual style/theme (Style 1 Classic Light/Dark, Style 2A Modern Studio Tech, or Style 2B Cinematic Story)
-4. Narrator's complete video-level voice profile from `voice-continuity.md` (identity/age, accent, timbre, register, resonance, texture, delivery, pace and recording treatment), English word count, and estimated duration
+4. Narrator's complete video-level voice profile from `voice-continuity.md` (identity/age, accent, timbre, register, resonance, texture, delivery, pace and recording treatment), word count (English or Vietnamese), and estimated duration
 5. Up to three saturated accent colors (for Style 1) or visual palette/environment mood (for Style 2), named in ordinary language, and what each represents
 6. BGM direction, emotional turn, tone, and narrative arc
 
